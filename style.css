@@ -1,0 +1,312 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+body{
+    height: 1500px;
+    background-color: black;
+    position: relative;
+}
+
+.left-container{
+position: absolute;
+width: 597px;
+height: 1500px;
+/* height: 1704px; */
+left: 0px;
+top: 0px;
+background: #162A3D;
+margin-left: 40px;
+margin-bottom: 0px;
+}
+.profile{
+position: absolute;
+width: 325px;
+height: 332px;
+left: 162px;
+top: 28px;
+}
+.olivier-image{
+    width: 325px;
+    height: 332px;
+}
+.contact{
+ position: absolute;
+width: 518px;
+height: 243px;
+left: 41px;
+top: 391px;
+/* padding: 20px; */
+font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    color: #00F0FF;
+    font-size: 30px;
+}
+i{
+    color:#00F0FF;
+    font-size: 30px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact-info{
+    margin-top: 9px;
+}
+
+
+/* SKILLS */
+.skills{
+    position: absolute;
+width: 518px;
+/* height: 474.94px; */
+height: 400px;
+left: 41px;
+top: 649px;
+font-family: sans-serif;
+}
+.skills h3{
+    color: white;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 9px;
+    /* border: 2px solid green ; */
+
+}
+
+.skills h3 i{
+    padding-left:3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    float: right;
+    vertical-align: middle;
+    /* border: 2px solid red ;
+    background-color: ; */
+}
+
+/* languages */
+.languages{
+    position: absolute;
+width: 519px;
+/* height: 140px; */
+left: 41px;
+top: 1050px;
+font-family: sans-serif;
+
+}
+.languages h3{
+    color: white;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 9px;
+}
+
+.languages h3 i{
+    padding-left:3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    float: right;
+    vertical-align: middle;
+    /* border: 2px solid red ;
+    background-color: ; */
+}
+
+
+/* hobbies */
+.hobbies{
+    position: absolute;
+width: 519px;
+height: 157px;
+left: 41px;
+/* top: 1366px; */
+top:1200px;
+}
+.hobbies h3{
+    color: white;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right-container{
+position:absolute;
+width: 845px;
+height: 1500px;
+/* left: 595px; */
+left: 635px;
+top: 0px;
+right: 0px;
+background:white;
+border-radius: 0px;
+margin-right: 40px;
+margin-bottom: 0px;
+}
+.name-title{
+    /* box-sizing: border-box; */
+
+position: absolute;
+width: 845px;
+height: 362px;
+/* left: 595px; */
+left:0px;
+top: 0px;
+background-image: url(images/home.png);
+/* background: rgba(37, 43, 218, 0.78); */
+}
+
+.name-title .name{
+position: absolute;
+height: 54px;
+left:173px;
+top: 44px;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+color: #FFFFFF;
+font-family: sans-serif;
+}
+.name-title .title{
+    position: absolute;
+    height: 54px;
+    left:173px;
+    top: 137px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    }
+
+.summary{
+position: absolute;
+width:845px;
+left:0px;
+top: 391px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #000000;
+}
+.summary h3{
+margin-left: 181px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #000000;
+font-family: sans-serif;
+}
+.summary h4{
+font-weight: 700;
+font-family: sans-serif;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+margin:20px auto 0 57px;
+}
+
+.experience{
+position: absolute;
+width:845px;
+height: 169px;
+left:0px;
+top: 648px;
+}
+
+.experience h3{
+   margin-left: 181px;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   color: #000000;
+   font-family: sans-serif;
+}
+.experience h4{
+ font-weight: 700;
+ font-family: sans-serif;
+ font-size: 30px;
+ line-height: 36px;
+ color: #000000;
+ margin:20px auto 0 57px;
+}
+
+
+
+.education{
+    position: absolute;
+    width:845px;
+    height: 251px;
+    left:0px;
+    top: 850px;
+} 
+.education h3{
+       margin-left: 181px;
+       font-weight: 700;
+       font-size: 45px;
+       line-height: 53px;
+       color: #000000;
+       font-family: sans-serif;
+}
+.education h4{
+     font-weight: 700;
+     font-family: sans-serif;
+     font-size: 30px;
+     line-height: 36px;
+     color: #000000;
+     margin:20px auto 0 57px;
+}
+
+
+
+
+
+
+.certificate{
+   position: absolute;
+   width:845px;
+   height: 425px;
+   left:0px;
+   top: 1150px;
+} 
+.certificate h3{
+       margin-left: 181px;
+       font-weight: 700;
+       font-size: 45px;
+       line-height: 53px;
+       color: #000000;
+       font-family: sans-serif;
+}
+.certificate h4{
+     font-weight: 700;
+     font-family: sans-serif;
+     font-size: 30px;
+     line-height: 36px;
+     color: #000000;
+     margin:10px auto 0 57px;
+}
