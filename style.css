@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    /* height: 1500px; */
-    background-color: black;
+    background-color: #FFFFFF;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -16,23 +15,28 @@ position: relative;
 width: 597px;
 height: 1500px;
 left:auto;
+
 background: #162A3D;
-margin-left: 40px;
+/* margin-left: 40px; */
 margin-bottom: 0px;
 }
 
 /* common style for group */
 .group1{
    position: absolute;
-   width: 518px;
-   left: 41px;
+   /* width: 518px; */
+   width: 450px ;
+   /* left:41px; */
+   left: 20px;
+
    font-family: sans-serif;
 }
 .profile{
 position: absolute;
 width: 325px;
 height: 332px;
-left: 162px;
+/* left: 162px; */
+left: 90px;
 top: 28px;
 }
 .olivier-image{
@@ -50,7 +54,7 @@ h2{
 }
 i{
     color:#00F0FF;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 a{
@@ -58,7 +62,7 @@ a{
     padding-left: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 .contact-info{
     margin-top: 9px;
@@ -141,12 +145,11 @@ position: relative;
 width: 845px;
 height: 1500px;
 left:auto;
-/* left: 635px; */
 top: 0px;
 right: 0px;
 background:white;
 border-radius: 0px;
-margin-right: 40px;
+margin-right: 0px;
 margin-bottom: 0px;
 }
 .name-title{
@@ -272,6 +275,8 @@ top: 648px;
     line-height: 36px;
     margin:10px auto 0 57px;
 }
+
+
 
 
 
