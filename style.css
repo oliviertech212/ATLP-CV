@@ -2,8 +2,6 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-
-
 }
 body{
     /* height: 1500px; */
@@ -112,8 +110,6 @@ top: 1050px;
 }
 span{
     float: right;
-    /* border: 2px solid red ;
-    background-color: ; */
 }
 
 
@@ -162,6 +158,11 @@ top: 0px;
 background-image: url(images/home.png);
 /* background: rgba(37, 43, 218, 0.78); */
 }
+/* style to hide picture */
+.name-title div{
+    display: none;
+    /* background-color: #162A3D; */
+}
 
 .name-title .name{
 position: absolute;
@@ -190,7 +191,8 @@ font-family: sans-serif;
 /* common styles on group2  */
 .group2{
    position: absolute;
-   width:845px;
+   /* width:845px; */
+   width: 100%;
    left:0px;
    font-family: sans-serif;
    color: #000000;
@@ -270,3 +272,362 @@ top: 648px;
     line-height: 36px;
     margin:10px auto 0 57px;
 }
+
+
+
+
+@media (max-width:1200px) {
+    body{
+        flex-direction: column-reverse;
+        margin:0px auto 0px auto;
+    }
+    .right-container{
+        margin: 0px;
+        width: 100%;
+        height: 1700px;
+    }
+    .group2{
+        left: 0;
+    }
+    .name-title{
+    position: absolute;
+    width:100%;
+    height:400px;
+    left:0px;
+    top: 0px;
+    /* background-image: url(images/home.png); */
+    background: rgba(37, 43, 218, 0.78);
+    }
+    .name-title div{
+        position: absolute;
+        top: 170px;
+        left: 250px;
+        /* text-align: center; */
+
+        display:flex;
+        width: 200px;
+        height:200px;
+    }
+    .profile .olivier-image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .name-title .name{
+        top: 44px;
+    }
+    .name-title .title{
+        top:100px;
+
+    }
+
+
+    /* left container */
+
+    .left-container{
+        width: 100%;
+        height: 1000px;
+        margin: 0px;
+        padding: 150px;
+    }
+    .profile{
+        display: none;
+    }
+    .group1{
+        left: 0;
+        padding-left:10px;
+        width: 100%;
+    }
+    h2{
+        text-align:left;
+        padding-left:90px;
+          
+      }
+    .contact{
+        top: 0px;
+        height: max-content;
+    }
+    .skills{
+        top: 170px;
+        height: max-content;
+        margin: 0;
+    }
+    .languages{
+        top: 550px;
+        height: max-content;
+    }
+    .hobbies{
+        top: 700px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width:600px){
+    body{
+        flex-direction: column-reverse;
+        /* margin:5px; */
+    }
+    .right-container{
+        position: relative;
+        /* width:400px; */
+
+        height:900px;
+        left:auto;
+        top: 0px;
+        right: 0px;
+        background:white;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        }
+        .name-title{
+        position: absolute;
+        width:100%;
+        height:350px;
+        left:0px;
+        top: 0px;
+        text-align: center;
+        /* background-image: url(images/home.png); */
+        background: rgba(37, 43, 218, 0.78);
+        }
+        .name-title div{
+            position: absolute;
+            top: 130px;
+            left: 50px;
+            display:flex;
+            width: 200px;
+            height:175px;
+        }
+        .profile .olivier-image{
+            width: 175px;
+            height: 175px;
+        }
+        
+        .name-title .name{
+        position: absolute;
+        top:15px;
+        left: 50px;
+        font-weight: 700;
+        font-size:20px;
+        color: #FFFFFF;
+        font-family: sans-serif;
+
+        }
+        .name-title .title{
+            position: absolute;
+            left:50px;
+            top:60px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            color: #FFFFFF;
+            font-family: sans-serif;
+            padding: 0px;
+        }
+        
+        /* common styles on group2  */
+        .group2{
+           position: absolute;
+           /* width:845px; */
+           width: fit-content;
+           /* width: 100%; */
+           left:0px;
+           font-family: sans-serif;
+           color: #000000;
+        }
+        
+        .summary{
+           /* top: 391px; */
+           top: 350px;
+        }
+        .summary h3{
+           margin-left: 50px;
+           padding-left:0px;
+           font-size: 25px;
+           line-height: 53px;
+        }
+        .summary h4{
+        font-weight: 700;
+        font-size: 15px;
+        line-height:16px;
+        margin:0px 5px 0px 5px;
+        }
+        
+        .experience{
+        height: max-content;
+        top:470px;
+        padding-bottom: 0px;
+        }
+        
+        .experience h3{
+            margin-left: 50px;
+            padding-left:0px;
+            font-size: 25px;
+            line-height: 53px;
+        }
+        .experience h4{
+            font-weight: 700;
+            font-size: 15px;
+            line-height:16px;
+            margin:0px 5px 0px 5px;
+        }
+        
+        
+        /* education div */
+        .education{
+            height: max-content;
+            top:570px;
+            padding-bottom: 0px;
+        } 
+        .education h3{
+            margin-left: 50px;
+            padding-left:0px;
+            font-size: 25px;
+            line-height: 53px;
+        }
+        .education h4{
+            font-weight: 700;
+            font-size: 15px;
+            line-height:16px;
+            margin:0px 5px 0px 5px;
+        }
+        
+        /* certificate div */
+        
+        .certificate{
+           top:690px;
+           height: max-content;
+           padding-bottom: 0px;
+        } 
+        .certificate h3{
+            margin-left: 50px;
+            padding-left:0px;
+            font-size: 25px;
+            line-height: 53px;
+        }
+        .certificate h4{
+            font-weight: 750;
+            font-size: 15px;
+            line-height:16px;
+            margin:0px 5px 0px 5px;
+        }
+    .left-container{
+        position: relative;
+        /* width:400px; */
+        height:600px;
+        left:0;
+        top: 0px;
+        /* right: 0px; */
+        background:#162A3D;
+        margin-bottom: 0px;
+        margin: 0;
+    }
+        
+        /* common style for group */
+        .group1{
+           position: absolute;
+           width:100%;
+           left:0px;
+           font-family: sans-serif;
+        }
+        .profile{
+        display: none;
+        }
+        .contact{
+        height: max-content;
+        top:0px;
+        }
+        h2{
+          text-align:left;
+          color: #00F0FF;
+          font-size: 25px;
+          padding-left:50px;
+          /* border: 3px solid green; */
+            
+        }
+        i{
+            color:#00F0FF;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        a{
+            color: white;
+            padding-left: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .contact-info{
+            margin-top: 9px;
+        }
+        
+        
+        /* SKILLS */
+        .skills{
+        height: max-content;
+        top:150px;
+        }
+        .skills h3{
+            color: white;
+            padding-left: 0px;
+            font-weight: bold;
+            font-size:15px;
+            margin-top: 9px;
+            /* border: 2px solid green ; */
+        }
+        
+        .skills h3 i{
+            padding-left:3px;
+            font-size:9px;
+        }
+        /* languages */
+        .languages{
+        top: 370px;
+        }
+        .languages h3{
+            color: white;
+            padding-left: 0px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 9px;
+        }
+        
+        .languages h3 i{
+            padding-left:3px;
+            font-size:9px;
+        }
+        span{
+            float: right;
+        }
+        
+        
+        /* hobbies */
+        .hobbies{
+        height: 157px;
+        top:450px;
+        }
+        .hobbies h3{
+            color: white;
+            padding-left: 0px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        h3{
+            margin:0px 5px 0px 5px;
+        }
+        
+
+}
+
+
+
